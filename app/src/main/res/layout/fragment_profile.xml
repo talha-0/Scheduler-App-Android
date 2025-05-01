@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBackground"
     android:orientation="vertical"
     android:padding="20dp"
     android:layout_width="match_parent"
@@ -8,12 +8,16 @@
     <EditText
         android:id="@+id/nameEdit"
         android:hint="Name"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorInputBackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/emailEdit"
         android:hint="Email"
+        android:textColor="@color/colorText"
+        android:backgroundTint="@color/colorInputBackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"/>
@@ -21,6 +25,7 @@
     <Switch
         android:id="@+id/darkModeSwitch"
         android:text="Dark Mode"
+        android:textColor="@color/colorText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"/>

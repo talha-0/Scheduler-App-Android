@@ -32,5 +32,6 @@ public class MainActivity extends AppCompatActivity {
         new TabLayoutMediator(tabLayout, viewPager2,
                 (tab, position) -> tab.setText(tabTitles[position])
         ).attach();
+
     }
 }
