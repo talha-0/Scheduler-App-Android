@@ -10,7 +10,7 @@ public class ThemeUtil {
         if (dark) {
             context.setTheme(R.style.Theme_SchedulerApp_Dark);
         } else {
-            context.setTheme(R.style.Theme_SchedulerApp_Light);
+            context.setTheme(R.style.Theme_SchedulerApp);
         }
     }
 }
